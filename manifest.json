@@ -1,0 +1,15 @@
+{
+  "name": "Salgadex'S — Temos Assados e Fritos",
+  "short_name": "Salgadex'S",
+  "description": "Assados e fritos fresquinhos. Peça pelo WhatsApp!",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#171310",
+  "theme_color": "#8a0d0f",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

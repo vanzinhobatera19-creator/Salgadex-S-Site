@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Salgadex'S — Temos Assados e Fritos</title>
+<meta name="description" content="Salgadex'S — assados e fritos fresquinhos, todo sabor por R$ 2,99. Peça pelo WhatsApp, Av. Barão de Mauá, 4157.">
+<meta name="theme-color" content="#8a0d0f">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== TOPO ===== -->
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a href="#topo" class="brand">
+     <img src="images/logo.png" alt="Salgadex'S – Temos Assados e Fritos" class="hero-logo">
+    </a>
+    <nav class="nav-links">
+      <a href="#cardapio">Cardápio</a>
+      <a href="#promocoes">Promoções</a>
+      <a href="#fotos">Fotos</a>
+      <a href="#local">Local</a>
+    </nav>
+    <a class="btn btn-whats btn-small" href="https://wa.me/5511977963668?text=Oi%2C%20vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido!" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" class="ico"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.28-1.38a9.9 9.9 0 0 0 4.7 1.2h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.87 9.87 0 0 0 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.13.82.84-3.05-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.13-.17.25-.65.81-.8.97-.14.17-.29.19-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.7-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.36-.77-1.86-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.57.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29Z"/></svg>
+      <span>Peça agora</span>
+    </a>
+    <button class="burger" id="burger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- menu mobile -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#cardapio">Cardápio</a>
+  <a href="#promocoes">Promoções</a>
+  <a href="#fotos">Fotos</a>
+  <a href="#local">Local</a>
+  <a href="https://wa.me/5511977963668" target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<main id="topo">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <img src="./images/logo.png" alt="Salgadex'S — Temos Assados e Fritos" class="hero-logo">
+      <p class="hero-tagline">Assados e fritos fresquinhos, feitos pra chegar quentinho até você.</p>
+
+      <div class="stamp" aria-hidden="false">
+        <svg viewBox="0 0 200 200" class="stamp-svg">
+          <circle cx="100" cy="100" r="92" class="stamp-ring"/>
+          <path id="stampCircleTop" d="M 20,100 A 80,80 0 0 1 180,100" fill="none"/>
+          <path id="stampCircleBottom" d="M 180,100 A 80,80 0 0 1 20,100" fill="none"/>
+          <text class="stamp-text-top"><textPath href="#stampCircleTop" startOffset="50%" text-anchor="middle">A PARTIR DE •</textPath></text>
+          <text class="stamp-text-bottom"><textPath href="#stampCircleBottom" startOffset="50%" text-anchor="middle">QUALIDADE SALGADEX'S •</textPath></text>
+          <text x="100" y="93" class="stamp-price" text-anchor="middle">R$ 2,99</text>
+          <text x="100" y="118" class="stamp-sub" text-anchor="middle">assados e fritos</text>
+        </svg>
+      </div>
+
+      <div class="hero-ctas">
+        <a class="btn btn-whats" href="https://wa.me/5511977963668?text=Oi%2C%20vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido!" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" class="ico"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.28-1.38a9.9 9.9 0 0 0 4.7 1.2h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.87 9.87 0 0 0 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.13.82.84-3.05-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.13-.17.25-.65.81-.8.97-.14.17-.29.19-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.7-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.36-.77-1.86-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.57.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29Z"/></svg>
+          <span>Pedir no WhatsApp</span>
+        </a>
+        <a class="btn btn-outline" href="#cardapio">Ver cardápio</a>
+      </div>
+
+      <button class="mascot-wrap" id="mascotBtn" aria-label="Cutucar o mascote">
+        <span class="speech-bubble" id="speechBubble">Oi! 👋</span>
+        <img src="./images/mascote.jpeg" alt="Mascote Salgadex'S, um salgadinho sorridente de chapéu de chef" class="hero-mascot">
+      </button>
+    </div>
+  </section>
+
+  <!-- ===== FAIXA CORRIDA ===== -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>TEMOS ASSADOS E FRITOS &nbsp;★&nbsp; TODO SALGADO R$ 2,99 &nbsp;★&nbsp; PEÇA PELO WHATSAPP &nbsp;★&nbsp; PORÇÕES PARA FESTA &nbsp;★&nbsp; </span>
+      <span>TEMOS ASSADOS E FRITOS &nbsp;★&nbsp; TODO SALGADO R$ 2,99 &nbsp;★&nbsp; PEÇA PELO WHATSAPP &nbsp;★&nbsp; PORÇÕES PARA FESTA &nbsp;★&nbsp; </span>
+    </div>
+  </div>
+
+  <!-- ===== CARDÁPIO ===== -->
+  <section class="section" id="cardapio">
+    <div class="section-head reveal">
+      <span class="eyebrow">Cardápio</span>
+      <h2>Escolhe o seu</h2>
+      <p class="lead">Assados e fritos por <strong>R$ 2,99</strong>, pastel de 1 sabor por <strong>R$ 7,99</strong> e de 2 sabores por <strong>R$ 9,99</strong>.</p>
+    </div>
+
+    <div class="tabs reveal" id="tabs">
+      <button class="tab active" data-cat="assados">Assados</button>
+      <button class="tab" data-cat="fritos">Fritos</button>
+      <button class="tab" data-cat="pastel1">Pastel 1 sabor</button>
+      <button class="tab" data-cat="pastel2">Pastel 2 sabores</button>
+      <button class="tab" data-cat="doces">Doces</button>
+    </div>
+
+    <div class="menu-panels reveal">
+      <ul class="menu-grid panel active" data-panel="assados">
+        <li><span>Esfiha de carne</span><em>R$ 2,99</em></li>
+        <li><span>Esfiha de frango</span><em>R$ 2,99</em></li>
+        <li><span>Esfiha de calabresa</span><em>R$ 2,99</em></li>
+        <li><span>Esfiha de hambúrguer com cheddar</span><em>R$ 2,99</em></li>
+        <li><span>Esfiha de 2 queijos</span><em>R$ 2,99</em></li>
+        <li><span>Esfiha de 3 queijos</span><em>R$ 2,99</em></li>
+        <li><span>Esfiha de 4 queijos</span><em>R$ 2,99</em></li>
+        <li><span>Esfiha de Bauru</span><em>R$ 2,99</em></li>
+        <li><span>Croissant de pizza</span><em>R$ 2,99</em></li>
+      </ul>
+
+      <ul class="menu-grid panel" data-panel="fritos">
+        <li><span>Coxinha</span><em>R$ 2,99</em></li>
+        <li><span>Bolinho de queijo</span><em>R$ 2,99</em></li>
+        <li><span>Risoles</span><em>R$ 2,99</em></li>
+        <li><span>Enrolado de salsicha</span><em>R$ 2,99</em></li>
+        <li><span>Bolinho acarajé paulista</span><em>R$ 2,99</em></li>
+        <li><span>Fogazza de frango com catupiry</span><em>R$ 2,99</em></li>
+        <li><span>Fogazza de calabresa com cheddar</span><em>R$ 2,99</em></li>
+        <li><span>Fogazza de 2 queijos</span><em>R$ 2,99</em></li>
+        <li><span>Fogazza de presunto e queijo</span><em>R$ 2,99</em></li>
+      </ul>
+
+      <ul class="menu-grid panel" data-panel="pastel1">
+        <li><span>Carne</span><em>R$ 7,99</em></li>
+        <li><span>Frango</span><em>R$ 7,99</em></li>
+        <li><span>Queijo</span><em>R$ 7,99</em></li>
+        <li><span>Pizza</span><em>R$ 7,99</em></li>
+        <li><span>Calabresa</span><em>R$ 7,99</em></li>
+      </ul>
+
+      <ul class="menu-grid panel" data-panel="pastel2">
+        <li class="note-full">Vem com catupiry, cheddar ou queijo incluso</li>
+        <li><span>Carne</span><em>R$ 9,99</em></li>
+        <li><span>Frango</span><em>R$ 9,99</em></li>
+        <li><span>Queijo</span><em>R$ 9,99</em></li>
+        <li><span>Pizza</span><em>R$ 9,99</em></li>
+        <li><span>Calabresa</span><em>R$ 9,99</em></li>
+        <li><span>Bauru</span><em>R$ 9,99</em></li>
+      </ul>
+
+      <ul class="menu-grid panel" data-panel="doces">
+        <li><span>Fogazza doce de leite</span><em>R$ 2,99</em></li>
+        <li><span>Fogazza de chocolate</span><em>R$ 2,99</em></li>
+        <li><span>Pastel de Laka com Oreo</span><em>R$ 2,99</em></li>
+        <li><span>Pastel de doce de leite</span><em>R$ 2,99</em></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== PROMOÇÕES ===== -->
+  <section class="section section-dark" id="promocoes">
+    <div class="section-head reveal">
+      <span class="eyebrow">Pra festa</span>
+      <h2>Porções de mini salgados</h2>
+      <p class="lead">Sabores variados, assados e fritos. Ideal pra aniversário, reunião ou aquela visita de última hora.</p>
+    </div>
+
+    <div class="promo-grid reveal">
+      <div class="promo-card"><span class="promo-qty">10</span><span class="promo-label">mini salgados</span><span class="promo-price">R$ 6,99</span></div>
+      <div class="promo-card"><span class="promo-qty">20</span><span class="promo-label">mini salgados</span><span class="promo-price">R$ 12,99</span></div>
+      <div class="promo-card"><span class="promo-qty">30</span><span class="promo-label">mini salgados</span><span class="promo-price">R$ 18,99</span></div>
+      <div class="promo-card"><span class="promo-qty">40</span><span class="promo-label">mini salgados</span><span class="promo-price">R$ 24,99</span></div>
+      <div class="promo-card"><span class="promo-qty">50</span><span class="promo-label">mini salgados</span><span class="promo-price">R$ 32,99</span></div>
+      <div class="promo-card promo-featured"><span class="promo-qty">100</span><span class="promo-label">mini salgados</span><span class="promo-price">R$ 49,99</span><span class="promo-tag">mais pedido</span></div>
+    </div>
+
+    <div class="promo-cta">
+      <a class="btn btn-whats" href="https://wa.me/5511977963668?text=Oi%2C%20quero%20fazer%20um%20pedido%20de%20porção%20de%20mini%20salgados!" target="_blank" rel="noopener">Encomendar porção pelo WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ===== FOTOS ===== -->
+  <section class="section" id="fotos">
+    <div class="section-head reveal">
+      <span class="eyebrow">Direto da fritadeira</span>
+      <h2>Fotos</h2>
+      <p class="lead">Espaço pronto pra suas fotos reais. Troque qualquer quadro abaixo — veja o guia no README.</p>
+    </div>
+
+    <div class="gallery reveal">
+      <div class="photo-slot" style="--tilt:-3deg"><span>🥟</span><small>Coxinha</small></div>
+      <div class="photo-slot" style="--tilt:2deg"><span>🫓</span><small>Esfiha</small></div>
+      <div class="photo-slot" style="--tilt:-2deg"><span>🥐</span><small>Croissant de pizza</small></div>
+      <div class="photo-slot" style="--tilt:3deg"><span>🧀</span><small>Fogazza</small></div>
+      <div class="photo-slot" style="--tilt:-1deg"><span>🍫</span><small>Pastel doce</small></div>
+      <div class="photo-slot" style="--tilt:2deg"><span>🎉</span><small>Porção de festa</small></div>
+    </div>
+  </section>
+
+  <!-- ===== LOCALIZAÇÃO ===== -->
+  <section class="section section-dark" id="local">
+    <div class="section-head reveal">
+      <span class="eyebrow">Onde estamos</span>
+      <h2>Vem buscar ou peça em casa</h2>
+    </div>
+
+    <div class="local-grid reveal">
+      <div class="local-info">
+        <ul class="info-list">
+          <li>
+            <svg viewBox="0 0 24 24" class="ico-lg"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+            <span>Av. Barão de Mauá, 4157</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" class="ico-lg"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.28-1.38a9.9 9.9 0 0 0 4.7 1.2h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.87 9.87 0 0 0 12.04 2Z"/></svg>
+            <a href="https://wa.me/5511977963668" target="_blank" rel="noopener">(11) 97796-3668</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" class="ico-lg"><path fill="currentColor" d="M12 2.2c2.7 0 3 0 4.1.06 1.1.05 1.8.22 2.4.46.65.26 1.2.6 1.75 1.14.54.55.88 1.1 1.14 1.75.25.6.42 1.3.46 2.4.06 1.1.06 1.4.06 4.1s0 3-.06 4.1c-.05 1.1-.22 1.8-.46 2.4-.26.65-.6 1.2-1.14 1.75-.55.54-1.1.88-1.75 1.14-.6.25-1.3.42-2.4.46-1.1.06-1.4.06-4.1.06s-3 0-4.1-.06c-1.1-.05-1.8-.22-2.4-.46-.65-.26-1.2-.6-1.75-1.14-.54-.55-.88-1.1-1.14-1.75-.25-.6-.42-1.3-.46-2.4C2.2 15 2.2 14.7 2.2 12s0-3 .06-4.1c.05-1.1.22-1.8.46-2.4.26-.65.6-1.2 1.14-1.75.55-.54 1.1-.88 1.75-1.14.6-.25 1.3-.42 2.4-.46C9 2.2 9.3 2.2 12 2.2Zm0 1.8c-2.65 0-2.97 0-4.02.06-.9.04-1.4.19-1.72.31-.43.17-.74.37-1.06.7-.32.32-.52.63-.7 1.06-.12.32-.27.82-.31 1.72C4.13 8.9 4.13 9.22 4.13 12s0 3.1.06 4.15c.04.9.19 1.4.31 1.72.17.43.37.74.7 1.06.32.32.63.52 1.06.7.32.12.82.27 1.72.31 1.05.06 1.37.06 4.02.06s2.97 0 4.02-.06c.9-.04 1.4-.19 1.72-.31.43-.17.74-.37 1.06-.7.32-.32.52-.63.7-1.06.12-.32.27-.82.31-1.72.06-1.05.06-1.37.06-4.15s0-3.1-.06-4.15c-.04-.9-.19-1.4-.31-1.72a2.85 2.85 0 0 0-.7-1.06 2.85 2.85 0 0 0-1.06-.7c-.32-.12-.82-.27-1.72-.31C14.97 4 14.65 4 12 4Zm0 3.35A4.65 4.65 0 1 1 12 16.65 4.65 4.65 0 0 1 12 7.35Zm0 1.8a2.85 2.85 0 1 0 0 5.7 2.85 2.85 0 0 0 0-5.7Zm4.85-2a1.08 1.08 0 1 1 0 2.17 1.08 1.08 0 0 1 0-2.17Z"/></svg>
+            <a href="https://instagram.com/salgados.xx" target="_blank" rel="noopener">@salgados.xx</a>
+          </li>
+        </ul>
+        <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Avenida%20Bar%C3%A3o%20de%20Maua%2C%204157" target="_blank" rel="noopener">Abrir no Google Maps</a>
+      </div>
+
+      <div class="local-map">
+        <iframe
+          title="Mapa Salgadex'S"
+          src="https://maps.google.com/maps?q=Avenida%20Bar%C3%A3o%20de%20Maua%2C%204157&z=15&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <img src="images/logo.png" alt="Salgadex'S" class="footer-logo">
+  <p>Temos Assados e Fritos — Av. Barão de Mauá, 4157</p>
+  <div class="footer-links">
+    <a href="https://wa.me/5511977963668" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="https://instagram.com/salgados.xx" target="_blank" rel="noopener">Instagram</a>
+  </div>
+  <small>© <span id="year"></span> Salgadex'S</small>
+</footer>
+
+<a class="fab-whats" href="https://wa.me/5511977963668?text=Oi%2C%20vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido!" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+  <svg viewBox="0 0 24 24" class="ico"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.28-1.38a9.9 9.9 0 0 0 4.7 1.2h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.87 9.87 0 0 0 12.04 2Zm0 18.13h-.01a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.13.82.84-3.05-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.7-.81-.23-.08-.4-.12-.56.13-.17.25-.65.81-.8.97-.14.17-.29.19-.54.06-.25-.12-1.04-.38-1.98-1.22-.73-.65-1.23-1.46-1.37-1.7-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.36-.77-1.86-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.57.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.17-.48-.29Z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
